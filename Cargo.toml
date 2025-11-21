@@ -1,11 +1,11 @@
 [package]
-name = "rustdesk"
-version = "1.4.4"
-authors = ["rustdesk <info@rustdesk.com>"]
+name = "unflux"
+version = "1.0.0"
+authors = ["UnFlux <office@fluxit.ro>"]
 edition = "2021"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
-default-run = "rustdesk"
+description = "UnFlux Remote Client"
+default-run = "unflux"
 rust-version = "1.75"
 
 [lib]
@@ -219,8 +219,8 @@ hound = "3.5"
 docopt = "1.1"
 
 [package.metadata.bundle]
-name = "RustDesk"
-identifier = "com.carriez.rustdesk"
+name = "UnFlux"
+identifier = "ro.unFlux"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
 
